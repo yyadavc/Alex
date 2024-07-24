@@ -73,16 +73,3 @@ VALUES
 ('Healthcare'),
 ('Library'),
 ('Finance');
-
-
-
-
-
-
-
-
-
-
-
-
-
