@@ -3,3 +3,17 @@ INSERT INTO employee_salary(employee_id,first_name,last_name,occupation,salary,d
 VALUES ('1','PAVAN','Yadav','RISKANALYST','34000','4');
 INSERT INTO employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 VALUES ('1', 'Yashas', 'Yadav', 'Platformengineer', '44000', '2');
+
+
+-------------------------------------------------------------------------------
+Group By
+select gender , max(age) , min(age) , count(age) , avg(age)
+from parks_and_recreation.employee_demographics
+group by gender ;
+
+==================================================================
+
+order by
+select * 
+from parks_and_recreation.employee_demographics
+order by  gender ,age 
