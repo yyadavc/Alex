@@ -1,7 +1,5 @@
 SELECT * FROM parks_and_recreation.employee_salary WHERE last_name='Yadav';
 INSERT INTO employee_salary(employee_id,first_name,last_name,occupation,salary,dept_id)
 VALUES ('1','PAVAN','Yadav','RISKANALYST','34000','4');
-
-
 INSERT INTO employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 VALUES ('1', 'Yashas', 'Yadav', 'Platformengineer', '44000', '2');
